@@ -1,0 +1,138 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#creating .box {
+  border: 3px solid #1d8284;
+  width: 200px;
+  height: 200px;
+  background-color: #5988af;
+}
+#creating .box .minibox {
+  display: flex;
+  align-items: center;
+  background-color: #3c5f89;
+  color: white;
+  width: 100px;
+  height: 100px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 3s;
+}
+#creating .box .minibox:hover {
+  padding: 75px;
+}
+#creating .violetbox {
+  display: flex;
+  justify-content: center;
+  background-color: #845f8a;
+  color: white;
+  width: 200px;
+  height: 100px;
+  border: 5px solid #845f8a;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 12px;
+  margin-top: 100px;
+  transition: 2s;
+  cursor: pointer;
+}
+#creating .violetbox:hover {
+  background-color: #464646;
+}
+#creating .orangebox {
+  display: flex;
+  align-items: center;
+  background-color: #947053;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 80px;
+  margin-top: 100px;
+  transition: 2s;
+}
+#creating .orangebox:hover {
+  border-radius: 0;
+}
+@media screen and (max-width: 800px) {
+  #creating .violetbox {
+    width: 100px;
+    height: 50px;
+    background-color: #6f76d8;
+    border: none;
+    padding: 15px;
+  }
+  #creating .orangebox {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    padding: 25px;
+    font-size: 25px;
+    background-color: #b6b475;
+  }
+  #creating .orangebox h1 {
+    position: absolute;
+    right: 4px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #creating .margin {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  #creating .violetbox {
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    padding: 11px;
+    background-color: #270101;
+    border-radius: 3px;
+  }
+}
+
+#blueboxs .minibox {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  margin: 20px 0;
+  padding: 70px;
+  font-size: 30px;
+  color: white;
+  background-color: #456c91;
+}
+#blueboxs .change {
+  transform: translate(300px, 0);
+}
+#blueboxs .trans {
+  transform: translate(0, -220px);
+}
+
+#greenboxs .box {
+  position: relative;
+}
+#greenboxs .box .minibox {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  margin: 20px 0;
+  padding: 70px;
+  font-size: 30px;
+  color: white;
+  background-color: #77a36f;
+}
+#greenboxs .twiceMbox {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}/*# sourceMappingURL=style.css.map */

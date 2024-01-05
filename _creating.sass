@@ -1,0 +1,77 @@
+#creating
+    .box
+        border: 3px solid #1d8284
+        width: 200px
+        height: 200px
+        background-color: #5988af
+        .minibox
+            display: flex
+            align-items: center
+            background-color: #3c5f89
+            color: #ffff
+            width: 100px
+            height: 100px
+            font-weight: 700
+            font-size: 20px
+            transition: 3s
+            &:hover
+                padding: 75px
+    .violetbox
+        display: flex
+        justify-content: center
+        background-color: #845f8a
+        color: #ffff
+        width: 200px
+        height: 100px
+        border: 5px solid #845f8a
+        border-radius: 5px
+        font-size: 20px
+        padding-top: 12px
+        margin-top: 100px
+        transition: 2s
+        cursor: pointer
+        &:hover
+            background-color: #464646
+    .orangebox
+        display: flex
+        align-items: center
+        background-color: #947053
+        color: #ffff
+        width: 200px
+        height: 200px
+        border-radius: 50%
+        font-size: 25px
+        font-weight: 700
+        padding: 80px
+        margin-top: 100px
+        transition: 2s
+        &:hover
+            border-radius: 0
+    @media screen and ( max-width: 800px )
+        .violetbox
+            width: 100px
+            height: 50px
+            background-color: #6f76d8
+            border: none
+            padding: 15px
+        .orangebox
+            position: relative
+            width: 25px
+            height: 25px
+            padding: 25px
+            font-size: 25px
+            background-color: #b6b475
+            h1
+                position: absolute
+                right: 4px
+    @media screen and ( max-width: 700px )
+        .margin
+            margin-top: 0
+    @media screen and ( max-width: 500px )
+        .violetbox
+            width: 50px
+            height: 50px
+            font-size: 10px
+            padding: 11px
+            background-color: #270101
+            border-radius: 3px
